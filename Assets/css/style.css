@@ -1,9 +1,9 @@
 :root {
-    --primary: #ccdad1;
-    --secondary: #9caea9;
-    --tertiary: #788585;
-    --light-dark: #6f6866;
-    --dark: #38302e;
+    --primary: #e7e8eb;
+    --secondary: #93baaf;
+    --tertiary: #6e9595;
+    --light-dark: #383873;
+    --dark: #546ba1;
     --border-radius: 0.3rem;
   }
   
@@ -49,6 +49,7 @@
     width: 100%;
     display: block;
     margin: 5px 0;
+    margin-bottom: 10px;
     border-radius: var(--border-radius);
     color: var(--primary);
     border: none;
@@ -151,6 +152,7 @@
     margin: 0 0 20px 0;
     border: 3px solid var(--dark);
     border-radius: var(--border-radius);
+    
   }
   
   .card-header {
