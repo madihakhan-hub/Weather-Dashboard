@@ -16,7 +16,7 @@ document.getElementById("language-buttons").addEventListener("click", function (
 
 function fetchWeather(cityName) {
   // Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
-  const apiKey = '54ef0cfcb845848be77b6df7f7db42ca';
+  const apiKey = '';
   const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
 
   fetch(weatherUrl)
@@ -42,7 +42,7 @@ function fetchWeather(cityName) {
 
 function fetchForecast(cityName) {
   // Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
-  const apiKey = '54ef0cfcb845848be77b6df7f7db42ca';
+  const apiKey = '';
   const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${apiKey}`;
 
   fetch(forecastUrl)
